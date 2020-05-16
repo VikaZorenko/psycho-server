@@ -1,0 +1,1 @@
+web: gunicorn psycho-server.wsgi --log-file -
