@@ -7,6 +7,8 @@ PRODUCTION = True
 
 HOSTNAME = os.environ.get('SERVER_NAME', '')
 
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'odev4$y_1l_wc-6r95uqi_ig!dpj5)vpa)s)&w0%lpx6mwwp7l')
+
 ALLOWED_HOSTS = ['*']
 
 PROTOCOL = 'https://'
