@@ -37,6 +37,7 @@ LOGIN_URL = reverse_lazy('login')
 INSTALLED_APPS = [
     # psycho-server apps
     'api',
+    'tests',
 
     # Third party apps
     'corsheaders',
