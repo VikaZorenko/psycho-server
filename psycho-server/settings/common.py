@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'django_extensions',
     'rest_framework',
+    'rest_framework.authtoken',
 
     # Django default apps
     'django.contrib.admin',
